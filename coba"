@@ -1,0 +1,6 @@
+CREATE TABLE akun (
+id_akun int(11) NOT NULL,
+id_pelanggan int(11) NOT NULL,
+tipe varchar(30) NOT NULL,
+PRIMARY KEY (id_akun)
+) ENGINE=InnoDB;
